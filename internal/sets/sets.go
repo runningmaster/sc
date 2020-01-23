@@ -278,9 +278,6 @@ func diffInt64Sorted(a, b []int64) []int64 {
 		case a[i] > b[j]:
 			j++
 		default:
-			if i > j {
-				i = len(a) - 1
-			}
 			i++
 			j++
 		}
