@@ -1,4 +1,5 @@
 /bin
+*.bash
 # Binaries for programs and plugins
 *.exe
 *.exe~
